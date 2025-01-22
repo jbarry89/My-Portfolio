@@ -1,18 +1,20 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import AboutMe from './components/pages/AboutMe';
-import Portfolio from './components/pages/Portfolio';
-import ContactMe from './components/pages/ContactMe';
-import Resume from './components/pages/Resume';
-import './App.css';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import AboutMe from './components/pages/AboutMe.jsx';
+import Portfolio from './components/pages/Portfolio.jsx';
+import ContactMe from './components/pages/ContactMe.jsx';
+import Resume from './components/pages/Resume.jsx';
+import './styles/index.css';
+import './styles/contactForm.css';
 
 export default function App() {
 
   return (
    <Router>
       <Header />
+  
       <main>
         <Routes>
           <Route path='/' element={<AboutMe />} />

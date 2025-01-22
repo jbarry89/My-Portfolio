@@ -1,0 +1,29 @@
+/* src/styles/AboutMe.css */
+.about-me-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.about-me-section div {
+  flex: 1;
+  max-width: 70%;
+  text-align: left;
+}
+
+.about-me-section h2 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.about-me-section img {
+  margin-left: 20px; /* Add space between image and text */
+  float: right; /* Float image to the left */
+  max-width: 200px; /* Adjust the size of the image */
+  border-radius: 50%;
+}
+
+.about-me-section p {
+  margin: 0;
+  text-align: left;
+}

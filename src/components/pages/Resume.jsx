@@ -1,14 +1,28 @@
 import React from 'react';
+import '../../styles/Resume.css';
 export default function Resume(){
     return(
-        <section>
+        <section className='resume-section'>
             <h2>Resume</h2>
             <a href="path-to-your-resume.pdf" download>Download Resume</a>
+            <h3> Front-End Proficiencies</h3>
             <ul>
-                <li>Proficiency 1</li>
-                <li>Proficiency 2</li>
-                <li>Proficiency 3</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL Query</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+
             </ul>
+            <h3> Back-End Proficiencies</h3>
+            <ul>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>API's</li>
+            </ul>
+            
         </section>
     );
 
