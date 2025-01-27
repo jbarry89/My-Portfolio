@@ -15,7 +15,6 @@
 
 .portfolio-grid {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
     gap: 16px;
     width: 100%;   /* Ensure grid takes a certain width of the screen */
     max-width: 800px;     /* Set a max width for better control  */
