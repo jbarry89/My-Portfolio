@@ -14,7 +14,6 @@ export default function App() {
   return (
    <Router>
       <Header />
-  
       <main>
         <Routes>
           <Route path='/' element={<AboutMe />} />
