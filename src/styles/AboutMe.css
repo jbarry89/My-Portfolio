@@ -1,29 +1,143 @@
 /* src/styles/AboutMe.css */
 .about-me-section {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* Align items to the top */
+  flex-direction: column;  /* Added css syle*/
+  justify-content: center;
+  align-items: center; /* Align items to the top */
+  /* height: 100vh; */
+  padding-top: 3rem;
+  text-align: left;
+  /* margin-top: -210px; */
+}
+
+.about-me-content {
+  max-width: 90%;
+  text-align: left;
 }
 
 .about-me-section div {
-  flex: 1;
-  max-width: 70%;
-  text-align: left;
+  margin-right: 20px;
 }
 
 .about-me-section h2 {
     font-size: 2rem;
-    text-align: left;
+    margin-top: -50px;
+    /* padding-bottom: 20px; */
+}
+
+.about-me-section h3 {
+  font-size: 4rem;
+  /* text-align: left; */
 }
 
 .about-me-section img {
-  margin-left: 20px; /* Add space between image and text */
-  float: right; /* Float image to the left */
-  max-width: 200px; /* Adjust the size of the image */
-  border-radius: 50%;
+  max-width: 20%; /* Adjust the size of the image */
+  border-radius: 20%;
+  margin-top: 20px;  /* Add space between image and text */
 }
 
 .about-me-section p {
+  font-size: 1.5rem;
   margin: 0;
-  text-align: left;
+  /* text-align: left; */
+}
+
+.text-color {
+  color: rgb(69, 69, 243);
+}
+
+/*****************************************************************
+* Media Queries - For responsive layout for the main webpage
+******************************************************************/
+
+@media (max-width: 700px) {
+  .about-me-section {
+    flex-direction: row;
+    text-align:left;
+  }
+
+  .about-me-content {
+    max-width: 50%;
+    margin-right: 20px;
+  }
+
+  .about-me-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-me-section h3 {
+    font-size: 3.0rem;
+  }
+
+  .about-me-section img {
+    max-width: 30%; /* Adjust the size of the image */
+    /* border-radius: 20%; */
+    margin-top: 20px;  /* Add space between image and text */
+  }
+
+  .about-me-section p {
+    font-size: 1rem;
+  }
+  
+}
+
+@media (min-width: 701px) {
+  .about-me-section {
+    flex-direction: row;
+    text-align:left;
+  }
+
+  .about-me-content {
+    max-width: 50%;
+    margin-right: 20px;
+  }
+
+  .about-me-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-me-section h3 {
+    font-size: 3.0rem;
+  }
+
+  .about-me-section img {
+    max-width: 30%; /* Adjust the size of the image */
+    /* border-radius: 20%; */
+    margin-top: 20px;  /* Add space between image and text */
+  }
+
+  .about-me-section p {
+    font-size: 1.1rem;
+  }
+  
+}
+ 
+/* Responsive Layout for Larger screen devices such as Desktop, Laptop, large Monitors */
+@media (min-width:1025px) {
+  .about-me-section {
+    padding: 32px;
+  }
+
+  .about-me-content {
+    max-width:40%;
+  }
+
+  .about-me-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-me-section h3 {
+    font-size: 4.5rem;
+  }
+
+  .about-me-section img {
+    max-width: 25%; /* Adjust the size of the image */
+    /* border-radius: 20%; */
+    margin-top: 20px;  /* Add space between image and text */
+  }
+
+  .about-me-section p {
+    font-size: 1.2rem;
+  }
+
 }
