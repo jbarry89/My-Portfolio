@@ -4,7 +4,7 @@ export default function Resume(){
     return(
         <section className='resume-section'>
             <h2>Resume</h2>
-            <a href="path-to-your-resume.pdf" download>Download Resume</a>
+            <a href="/resume-template.pdf" download>Download Resume</a>
             <h3> Front-End Proficiencies</h3>
             <ul>
                 <li>HTML</li>

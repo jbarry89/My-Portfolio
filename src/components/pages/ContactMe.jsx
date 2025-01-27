@@ -35,19 +35,10 @@ export default function ContactMe() {
       errMessages.email = "Message is Required";
     }
 
-    setErrors((prevErrors) => {
-      if(errMessages.name)
-        return { ...prevErrors, name: errMessages.name};
-      
-      else if(errMessages.email)
-        return { ...prevErrors, email: errMessages.email};
-
-      else if(errMessages.name)
-        return { ...prevErrors, message: errMessages.message};
-
-      return prevErrors;
-
-    });
+    setErrors((prevErrors) => ({
+      ...prevErrors,
+      ...errMessages,
+    }));
 
     const validationErrors = Object.values(errMessages).some((error) => error !== "");
     
