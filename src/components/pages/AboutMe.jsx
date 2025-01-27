@@ -14,7 +14,7 @@ export default function AboutMe() {
           and front-end development, where I can unleash my creativity and enhance user experiences 
           through responsive, intuitive designs.</p>
       </div>
-      <img src="./src/assets/joel-bio-pic.png" alt="Profile Picture" />
+      <img src="./assets/joel-bio-pic.png" alt="Profile Picture" />
     </section>
   );
 }
