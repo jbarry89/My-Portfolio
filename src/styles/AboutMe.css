@@ -12,15 +12,21 @@
 .about-me-content {
   max-width: 90%;
   text-align: left;
+  margin-top: 10px;
+}
+
+.about-me-content h2 {
+  font-size: 5rem;
 }
 
 .about-me-section div {
-  margin-right: 20px;
+  margin-right: 5rem;
 }
 
 .about-me-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: -50px;
+    margin-bottom: 2rem;
 }
 
 .about-me-section h3 {
@@ -42,6 +48,29 @@
 .text-color {
   color: rgb(69, 69, 243);
 }
+
+
+/*************
+* Animations 
+*************/
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+
 
 /*****************************************************************
 * Media Queries - For responsive layout for the main webpage
@@ -119,7 +148,7 @@
   }
 
   .about-me-section h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .about-me-section h3 {
