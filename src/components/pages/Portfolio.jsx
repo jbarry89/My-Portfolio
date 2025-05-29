@@ -28,7 +28,20 @@ export default function Portfolio(){
             image: './assets/weather-dashboard-screenshot.png',
             liveURL: 'https://drive.google.com/file/d/1fdIK35gxklZhVUViSZdUWjV_7RyqdVZX/view',  // Get the actual link to the project demo
             gitHubURL: 'https://github.com/jbarry89/Weather-Dashboard-Application',  // Get the actual link to the project demo
+        },
+        {
+            title: 'Eventure',
+            image: './assets/homepage-render.jpg',
+            liveURL: 'https://drive.google.com/file/d/1fdIK35gxklZhVUViSZdUWjV_7RyqdVZX/view',  // Get the actual link to the project demo
+            gitHubURL: 'https://github.com/nolangrossi/Eventure',  // Get the actual link to the project demo
+        },
+        {
+            title: 'Spendly - Subscription Tracker',
+            image: './assets/spendly-logo.png',
+            liveURL: 'https://spendly-client.onrender.com/',  // Get the actual link to the project demo
+            gitHubURL: 'https://github.com/jutalexa2024/spendly',  // Get the actual link to the project demo
         }
+
 
     ];
 
