@@ -1,0 +1,180 @@
+/* src/styles/AboutMe.css */
+.home-section {
+  display: flex;
+  flex-direction: column;  /* Added css syle*/
+  justify-content: center;
+  align-items: center; /* Align items to the top */
+  padding-top: 3rem;
+  text-align: left;
+
+}
+
+.home-content {
+  max-width: 90%;
+  text-align: left;
+}
+
+.home-section div {
+  margin-right: 80px;
+}
+
+.home-section h2 {
+    font-size: 2rem;
+    margin-top: -50px;
+}
+
+.home-section h3 {
+  font-size: 4rem;
+
+}
+
+.home-section img {
+  max-width: 20%; /* Adjust the size of the image */
+  border-radius: 20%;
+  margin-top: 20px;  /* Add space between image and text */
+}
+
+.home-section p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.text-color {
+  color: rgb(69, 69, 243);
+}
+
+.view-work-btn {
+  display: inline-block;
+  background-color: #4556f3;  /* Blue color, adjust as needed */
+  color: white;
+  font-size: 1.0rem;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+  text-decoration: none;
+  font-weight:500;
+  transition: all 0.3s ease-in-out;
+}
+
+.view-work-btn:hover {
+  background-color: white;  /* Darker shade on hover */
+  color: #4556f3;
+  transform: scale(1.05);  /* Slightly enlarges button */
+}
+
+
+
+
+/*************
+* Animations 
+*************/
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+/*****************************************************************
+* Media Queries - For responsive layout for the main webpage
+******************************************************************/
+
+@media (max-width: 700px) {
+  .home-section {
+    flex-direction: row;
+    text-align:left;
+  }
+
+  .home-content {
+    max-width: 50%;
+    margin-right: 20px;
+  }
+
+  .home-section h2 {
+    font-size: 2rem;
+  }
+
+  .home-section h3 {
+    font-size: 3.0rem;
+  }
+
+  .home-section img {
+    max-width: 30%; /* Adjust the size of the image */
+ 
+    margin-top: 20px;  /* Add space between image and text */
+  }
+
+  .home-section p {
+    font-size: 1rem;
+  }
+  
+}
+
+@media (min-width: 701px) {
+  .home-section {
+    flex-direction: row;
+    text-align:left;
+  }
+
+  .home-content {
+    max-width: 50%;
+    margin-right: 20px;
+  }
+
+  .home-section h2 {
+    font-size: 2rem;
+  }
+
+  .home-section h3 {
+    font-size: 3.0rem;
+  }
+
+  .home-section img {
+    max-width: 30%; /* Adjust the size of the image */
+    margin-top: 20px;  /* Add space between image and text */
+  }
+
+  .home-section p {
+    font-size: 1.1rem;
+  }
+  
+}
+ 
+/* Responsive Layout for Larger screen devices such as Desktop, Laptop, large Monitors */
+@media (min-width:1025px) {
+  .home-section {
+    padding: 32px;
+  }
+
+  .home-content {
+    max-width:40%;
+  }
+
+  .home-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .home-section h3 {
+    font-size: 4.5rem;
+  }
+
+  .home-section img {
+    max-width: 25%; /* Adjust the size of the image */
+    margin-top: 20px;  /* Add space between image and text */
+  }
+
+  .home-section p {
+    font-size: 1.2rem;
+  }
+
+}
