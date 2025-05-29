@@ -21,7 +21,7 @@
   ## Usage 
   Here is an example screenshot of the Portfolio "About Me" page:
 
-  ![Portfolio Screenshot](./src/assets/portfolio-screenshot.png)
+  ![Portfolio Screenshot](./public/assets/portfolio-screenshot.png)
   
   ## Contributing
   The source of contributors I have used in this application:
