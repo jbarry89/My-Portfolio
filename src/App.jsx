@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import Home from './components/pages/Home.jsx';
 import AboutMe from './components/pages/AboutMe.jsx';
 import Portfolio from './components/pages/Portfolio.jsx';
 import ContactMe from './components/pages/ContactMe.jsx';
@@ -16,7 +17,8 @@ export default function App() {
       <Header />
       <main>
         <Routes>
-          <Route path='/' element={<AboutMe />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/aboutme' element={<AboutMe />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/contact' element={<ContactMe />} />
           <Route path='/resume' element={<Resume />} />
