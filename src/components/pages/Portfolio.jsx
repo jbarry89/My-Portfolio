@@ -32,7 +32,7 @@ export default function Portfolio(){
         {
             title: 'Eventure',
             image: './assets/homepage-render.jpg',
-            liveURL: 'https://drive.google.com/file/d/1fdIK35gxklZhVUViSZdUWjV_7RyqdVZX/view',  // Get the actual link to the project demo
+            liveURL: 'https://eventure-q1zy.onrender.com/home',  // Get the actual link to the project demo
             gitHubURL: 'https://github.com/nolangrossi/Eventure',  // Get the actual link to the project demo
         },
         {
