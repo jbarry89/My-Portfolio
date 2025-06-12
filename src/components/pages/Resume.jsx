@@ -4,7 +4,7 @@ export default function Resume(){
     return(
         <section className='resume-section'>
             <h2>Resume</h2>
-            <a href="/joel-resume-web-Dev.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+            <a href="/joel-resume-web-dev.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
             <h3> Front-End Proficiencies</h3>
             <ul>
                 <li>HTML5</li>
